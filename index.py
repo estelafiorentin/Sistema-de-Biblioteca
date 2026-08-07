@@ -23,7 +23,33 @@ def cadastrar_usuario():
     nome = input("Digite o seu nome: ")
     email= input("Digite o seu e-mail: ")
     senha = input("Senha: ")
+def cadastrar_usuario():
+    nome = input("Nome: ")
+    codigo = input("Código do usuário: ")
 
+    for usuario in usuarios:
+        if usuario["codigo"] == codigo:
+            print("Código já existe!")
+            return
+
+    usuarios.append({
+        "nome": nome,
+        "codigo": codigo
+    })
+
+    print("Usuário cadastrado!\n")
+
+def buscar_livro(codigo):
+    for livro in livros:
+        if livro[codigo] == codigo:
+            return livro
+    return None
+
+def buscar_usuario(codigo):
+    for usuario in usuarios:
+        if usuario[codigo] == codigo:
+            return usuario
+    return None
 #MENU
 
 while True:
