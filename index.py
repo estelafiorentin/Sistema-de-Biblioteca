@@ -8,23 +8,47 @@ livros = [
         "quantidade": 3
     },
     {
-        "titulo": "Harry Potter e a Pedra Filosofal",
-        "autor": "J.K. Rowling",
-        "codigo": "002",
-        "quantidade": 2
-    },
-    {
         "titulo": "O Pequeno Príncipe",
         "autor": "Antoine de Saint-Exupéry",
-        "codigo": "003",
+        "codigo": "002",
         "quantidade": 5
     },
     {
         "titulo": "Dom Casmurro",
         "autor": "Machado de Assis",
+        "codigo": "003",
+        "quantidade": 2
+    },
+    {
+        "titulo": "Harry Potter e a Pedra Filosofal",
+        "autor": "J.K. Rowling",
         "codigo": "004",
-        "quantidade": 1
-    }
+        "quantidade": 4
+    },
+    {
+        "titulo": "Percy Jackson e o Ladrão de Raios",
+        "autor": "Rick Riordan",
+        "codigo": "005",
+        "quantidade": 3
+    },
+    {
+        "titulo": "Jogos Vorazes",
+        "autor": "Suzanne Collins",
+        "codigo": "006",
+        "quantidade": 2
+    },
+    {
+        "titulo": "O Hobbit",
+        "autor": "J.R.R. Tolkien",
+        "codigo": "007",
+        "quantidade": 3
+    },
+    {
+        "titulo": "Coraline",
+        "autor": "Neil Gaiman",
+        "codigo": "008",
+        "quantidade": 2
+    },
 ]
 
 usuarios = []
@@ -210,4 +234,3 @@ while True:
 
     else:
         print("Opção inválida!")
-
