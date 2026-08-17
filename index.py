@@ -17,7 +17,7 @@ livros = [
         "titulo": "Dom Casmurro",
         "autor": "Machado de Assis",
         "codigo": "003",
-        "quantidade": 2
+        "quantidade": 3
     },
     {
         "titulo": "Harry Potter e a Pedra Filosofal",
